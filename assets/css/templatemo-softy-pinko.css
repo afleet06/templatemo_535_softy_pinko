@@ -668,9 +668,9 @@ welcome
   font-weight: 400;
   font-size: 15px;
   color: #fff;
-  line-height: 28px;
+  line-height: 20px;
   letter-spacing: 0.25px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -683,7 +683,7 @@ welcome
   .welcome-area .header-text h1 {
     text-align: center;
     color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
   .welcome-area .header-text h1 span {
     color: #fff;
