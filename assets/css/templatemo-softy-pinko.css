@@ -255,14 +255,10 @@ body {
 }
 
 .padding-top-70 {
-  
-    padding-top: 60px;
     padding-bottom: 60px;
       overflow: hidden;
       position: relative;
-      
-  
-  padding-top: 70px !important;
+padding-top: 70px !important;
 }
 
 .padding-top-20 {
@@ -822,18 +818,15 @@ summary {
   padding-bottom:20px;
   width: 100%;
 }
-@media (max-width:400px) {
+@media (max-width:600px) {
 .photo-gallery .photos {
-  display: flex;
-  flex-direction: row;
   padding-bottom:20px;
-  width: 80%;
 }
 }
 @media (max-width:600px) {
 .photo-gallery .item {
   padding-bottom:10px;
-  width: 70px;
+  width: 100px;
   
 } 
 }
