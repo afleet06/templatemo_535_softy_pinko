@@ -255,6 +255,9 @@ body {
 }
 
 .padding-top-70 {
+  display: flex; 
+  flex-direction: row; 
+
   padding-top: 70px !important;
 }
 
@@ -773,8 +776,10 @@ summary {
 }
 
 .photo-gallery {
+ 
   color:#313437;
   background-color:#fff;
+  
 }
 
 .photo-gallery p {
@@ -797,8 +802,11 @@ summary {
 }
 
 .photo-gallery .intro {
+  
   font-size:16px;
-  margin:0 auto 40px;
+ 
+  margin:0 auto 10px;
+  
 }
 
 .photo-gallery .intro p {
@@ -806,13 +814,23 @@ summary {
 }
 
 .photo-gallery .photos {
+ 
   padding-bottom:20px;
-  width: 40%;
+  width: 100%;
 }
-
-.photo-gallery .item {
-  padding-bottom:30px;
+@media (max-width:400px) {
+.photo-gallery .photos {
   
+  padding-bottom:20px;
+  width: 80%;
+}
+}
+@media (max-width:600px) {
+.photo-gallery .item {
+  padding-bottom:10px;
+  padding-left:60px;
+  width: 33%;
+} 
 }
 
 
