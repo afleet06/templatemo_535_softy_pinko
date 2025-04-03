@@ -820,7 +820,8 @@ summary {
 }
 @media (max-width:400px) {
 .photo-gallery .photos {
-  
+  display: flex;
+  flex-direction: row;
   padding-bottom:20px;
   width: 80%;
 }
