@@ -21,7 +21,7 @@ https://templatemo.com/tm-535-softy-pinko
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
     <link rel="stylesheet" href="assets/css/templatemo-softy-pinko.css">
-
+    <link rel="stylesheet" href="floating-wpp.css">
     </head>
     
     <body>
@@ -268,6 +268,23 @@ https://templatemo.com/tm-535-softy-pinko
     <script src="assets/js/lightbox.min.js"></script>
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-
+    <div id="MiBotonWhatsApp"></div>
+    
+    <script type="text/javascript" src="floating-wpp.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#MiBotonWhatsApp').floatingWhatsApp({
+                phone: '526141828896',
+                popupMessage: 'Bienvenido, ¿cómo puedo ayudarte?',
+                message: "Tengo una pregunta.",
+                showPopup: true,
+                showOnIE: false,
+                headerTitle: 'WhatsApp - Chatear con Soluciones DC!',
+                headerColor: '#128C7E',
+                backgroundColor: 'crimson',
+                buttonImage: '<img src="whatsapp.svg" />'
+            });
+        });
+    </script>
   </body>
 </html>
